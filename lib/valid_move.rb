@@ -2,6 +2,8 @@
 def valid_move?
   if position_taken?
     return nil
+  else
+    return true
   end
 end
 
