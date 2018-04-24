@@ -11,10 +11,10 @@ end
 
 def position_taken?(array, index)
   if array[index] == " " || array[index] == ""
-    return false
-  elsif array[index] == nil
-    return false
-  else
     return true
+  elsif array[index] == nil
+    return true
+  else
+    return false
   end
 end
