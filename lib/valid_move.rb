@@ -7,7 +7,7 @@ def valid_move(board, index)
       return nil
     end
   else
-    return false
+    return nil
   end
 end
 
