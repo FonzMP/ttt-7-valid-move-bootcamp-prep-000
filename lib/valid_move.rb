@@ -4,6 +4,8 @@ def valid_move(board, index)
     if position_taken == false
 
     end
+  else
+    return false
   end
 end
 
