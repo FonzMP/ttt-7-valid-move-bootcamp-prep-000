@@ -1,6 +1,6 @@
 # code your #valid_move? method here
 def valid_move
-  if position_taken?
+  if !position_taken?
     return true
   else
     return false
@@ -15,6 +15,6 @@ def position_taken?(array, index)
   elsif array[index] == nil
     return false
   else
-    return false
+    return true
   end
 end
