@@ -3,7 +3,7 @@ def valid_move
   if position_taken?
     return false
   else
-    return false
+    return true
   end
 end
 
